@@ -1,0 +1,56 @@
+body{
+background-image: url(https://www.canva.com/design/DAEkH60bTUw/Cpaj7HrQGV7D4z_0035Uiw/edit?layoutQuery=tela+de+fundo+png);
+}
+
+
+.section_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style:solid;
+    color:black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.2;
+}
+.section_img:hover{
+     opacity: 1;
+}
+
+.section_h3{
+    display: block;
+
+
+}
+
+
+.footer_footer{
+    text-align: right;
+}
+.label_label{
+    text-align: end;
+}
+.button {
+    color: white;
+    background-color: darkblue;
+ }
+ 
+ .button:hover {
+     background-color: darkorange;
+ }
+
+
+ @media screen and (max-width:768px){
+    .section_img{
+        width: 200px;
+        height: 200x;
+    
+}
+ @media screen and (max-width:320px){
+     .section_img{
+         width: 100px;
+         height: 100x;
+     
+ }
+
